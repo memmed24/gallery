@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.canvas-bg-image {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.canvas-bg-image>div {
+    background: url("https://static.canva.com/static/images/bg_tiles_color.2.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: blur(8px) brightness(0.8);
+}
+
+.forms {
+    position: absolute;
+    z-index: 4000000;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.logo {
+    height: 150px;
+}
+.input-holder {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 20px 30px;
+    padding-left: 0
+}
+.input {
+    border: 0;
+    width: 95%;
+} 
+.input:focus {
+    outline: none
+}
+
+
+.input-holder i {
+    font-size: 20px;
+    color: #e3e3e3;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.forget-pass {
+    padding-left: 53px;
+}
+
+.buttons {
+    padding-top: 100px;
+}
+
+.button {
+    border: 0;
+    border-radius: 50px;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 150ms all linear;
+    text-transform: uppercase    
+}
+.red {
+    background-color: #C90000;
+    color: white;
+    margin-left: 20px;
+}
+
+.red:hover {
+    background-color: #A20909;
+}
+
+.white {
+    background-color: #CBCBCB;
+}
+
+.white:hover {
+    background-color: #002E5D;
+    color: white;
+}
